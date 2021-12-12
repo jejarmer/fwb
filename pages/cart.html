@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="../css/app.css" rel="stylesheet" />
+
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Google Font Birthstone -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Materialize CSS -->
+    <link href="../css/materialize.min.css" rel="stylesheet" />
+    <script src="../js/materialize.min.js"></script>
+    <script src="../js/app.js"></script>
+    <link rel="manifest" href= "../manifest.json">
+    
+    <link rel="shortcut icon" type="image/png" href="../img/icons/icon-48x48.png">
+    
+    <title>Fairy Wing Bling: Cart</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Fairy Wing Bling Webstore</h1>
+
+        <!--Nav for Screens Medium and Up-->
+        <div class="hide-on-small-only">
+          <nav class="nav-center" role="navigation">
+            <div class="nav-wrapper container">
+              <div class="row">
+                <div class="col s12">
+                  <ul>
+                    <li><a href="../index.html">Store</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./reviews.html">Reviews</a></li>
+                    <li><a href="./cart.html">Cart</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <!--Nav for Small Screens-->
+        <div class="hide-on-med-and-up">
+          <nav class="nav-alt" role="navigation">
+            <div class="nav-wrapper container">
+              <div class="row">
+                <div class="col s12">
+                  <ul>
+                    <li><a href="../index.html">Store</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./reviews.html">Reviews</a></li>
+                    <li><a href="./cart.html">Cart</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <h2>Cart</h2>
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="email" type="email" name="email" class="validate" required>
+              <label for="email">Email*</label>
+            </div>
+              <div class="input-field col s6">
+                  <input id="password" type="password" class="validate" required>
+                  <label for="password">Password*</label>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col s12 center-align">
+                  <a class="btn-small" type="login" id="quickstart-sign-in">Login
+                  </button>
+                  </a>
+                  <a class="btn-small" type="signup" id="quickstart-sign-up">Signup
+                  </button>
+              </a>
+              </div>
+          </div>
+
+      </main>
+      <!--
+      <script>
+      import { initializeApp } from "firebase/app";
+      import { getAnalytics } from "firebase/analytics";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCf0A3SvkqUO6P3yL4GGewcM0H-R3vPVUU",
+        authDomain: "fairywingbling.firebaseapp.com",
+        databaseURL: "https://fairywingbling-default-rtdb.firebaseio.com",
+        projectId: "fairywingbling",
+        storageBucket: "fairywingbling.appspot.com",
+        messagingSenderId: "571618737446",
+        appId: "1:571618737446:web:36c37e1da5978d053e15e7",
+        measurementId: "G-NV396RQVST"
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+
+      </script>
+
+      -->
+      
+      <footer>Copyright &copy;2021 Fairy Wing Bling</footer>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.4.0/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.0/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.0/firebase-firestore.js"></script>
+    <script type="module" src="../js/authentication.js"></script>
+  </body>
+</html>

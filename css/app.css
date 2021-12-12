@@ -1,0 +1,141 @@
+html {
+  background-color: #f3acc7;
+}
+* {
+  border: 0;
+  font-family: "Birthstone", "cursive", sans-serif;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+h1 {
+  font-size: 4em !important;
+  text-align: center;
+}
+
+h4 {
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.75em !important;
+  margin-top: 0px !important;
+  text-indent: 0.5em;
+}
+
+h5 {
+  padding-left: 10px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 5px;
+  font-size: 2em !important;
+}
+p {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+header {
+  padding-bottom: 20px !important;
+}
+
+img {
+  position: relative;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+}
+
+.price {
+  padding-left: 10px;
+}
+
+.button {
+  padding-left: 10px;
+  display: inline;
+}
+
+label {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif !important;
+}
+
+.btn-small {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+label {
+  color: black !important;
+}
+
+a.waves-effect.waves-light.btn-small {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 100px;
+}
+
+hr {
+  border-top: 3px solid black;
+}
+
+.item-bottom {
+  padding-bottom: 5px;
+}
+
+.product {
+  list-style-position: inside;
+  border: 4px solid #515151;
+  border-radius: 29px;
+  background-color: rgb(233, 231, 231);
+}
+
+span {
+  font-size: 2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: block;
+}
+
+nav {
+  background-color: #515151 !important;
+}
+nav.nav-center ul {
+  text-align: center;
+}
+nav.nav-center ul li {
+  display: inline;
+  float: none;
+}
+nav.nav-center ul li a {
+  display: inline-block;
+  padding: 0 22px;
+  font-size: 1.5em;
+}
+
+nav.nav-alt ul {
+  text-align: center;
+}
+nav.nav-alt ul li {
+  display: inline;
+  float: none;
+}
+nav.nav-alt ul li a {
+  display: inline-block;
+  padding: 0 8px;
+  font-size: 1.1em;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  background-color: #515151;
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
